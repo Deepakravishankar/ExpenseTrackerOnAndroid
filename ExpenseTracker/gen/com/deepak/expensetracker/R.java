@@ -32,24 +32,15 @@ public final class R {
         public static final int background8=0x7f020008;
     }
     public static final class id {
-<<<<<<< HEAD
         public static final int CommonExpense=0x7f080006;
         public static final int PersonalExpense=0x7f080005;
         public static final int action_settings=0x7f080008;
-=======
-        public static final int action_settings=0x7f080006;
->>>>>>> parent of 794b247... Revert "Expense Tracker Commit"
         public static final int background=0x7f080000;
         public static final int deleteexpenselist=0x7f080002;
         public static final int expensename=0x7f080003;
         public static final int expensevalue=0x7f080004;
-<<<<<<< HEAD
         public static final int getexpense=0x7f080007;
         public static final int saveexpense=0x7f080001;
-=======
-        public static final int getexpense=0x7f080001;
-        public static final int saveexpense=0x7f080005;
->>>>>>> parent of 794b247... Revert "Expense Tracker Commit"
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -60,7 +51,6 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
-<<<<<<< HEAD
         public static final int common_expense=0x7f050009;
         public static final int delete_current_expense_list=0x7f050007;
         public static final int enter_amount=0x7f050005;
@@ -69,13 +59,6 @@ public final class R {
         public static final int get_total_expenses=0x7f050004;
         public static final int hello_world=0x7f050002;
         public static final int personal_expense=0x7f050008;
-=======
-        public static final int delete_current_expense_list=0x7f050007;
-        public static final int enter_amount=0x7f050005;
-        public static final int enter_expense_name=0x7f050006;
-        public static final int get_total_expenses=0x7f050004;
-        public static final int hello_world=0x7f050002;
->>>>>>> parent of 794b247... Revert "Expense Tracker Commit"
         public static final int save_expense=0x7f050003;
     }
     public static final class style {

@@ -9,10 +9,7 @@
 	<string name="enter_amount">Enter amount</string>
 	<string name="enter_expense_name">Enter Expense Name</string>
 	<string name="delete_current_expense_list">Delete Current Expense List</string>
-<<<<<<< HEAD
 	<string name="personal_expense">Personal Expense</string>
 	<string name="common_expense">Common Expense</string>
 	<string name="get_common_expenses">Get Common Expenses</string>
-=======
->>>>>>> parent of 794b247... Revert "Expense Tracker Commit"
 </resources>

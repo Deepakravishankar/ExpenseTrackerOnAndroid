@@ -9,7 +9,6 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
-<<<<<<< HEAD
  
     <Button
         android:id="@+id/saveexpense"
@@ -19,26 +18,12 @@
         android:layout_centerHorizontal="true"
         android:onClick="saveExpenseToFile"
         android:text="@string/save_expense"
-=======
-
-    <Button
-        android:id="@+id/getexpense"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/deleteexpenselist"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/deleteexpenselist"
-        android:layout_marginRight="45dp"
-        android:onClick="getTotalExpensesFromFile"
-        android:text="@string/get_total_expenses"
->>>>>>> parent of 794b247... Revert "Expense Tracker Commit"
         android:textStyle="bold|italic" />
 
     <EditText
         android:id="@+id/expensename"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:layout_above="@+id/expensevalue"
         android:layout_alignLeft="@+id/expensevalue"
         android:ems="10"
@@ -47,20 +32,10 @@
         <requestFocus />
         
 
-=======
-        android:layout_alignLeft="@+id/expensevalue"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="26dp"
-        android:ems="10"
-        android:hint="@string/enter_expense_name" 
-        android:textStyle="bold|italic"/>
-		<requestFocus />
->>>>>>> parent of 794b247... Revert "Expense Tracker Commit"
     <EditText
         android:id="@+id/expensevalue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:layout_above="@+id/saveexpense"
         android:layout_centerHorizontal="true"
         android:ems="10"
@@ -87,21 +62,11 @@
         android:text="@string/common_expense" 
         android:textStyle="bold|italic" 
         android:onClick="deselectPersonalCheckBox"/>
-=======
-        android:layout_below="@+id/expensename"
-        android:layout_centerHorizontal="true"
-        android:ems="10"
-        android:hint="@string/enter_amount"
-        android:inputType="number"
-        android:textStyle="bold|italic" >
-    </EditText>
->>>>>>> parent of 794b247... Revert "Expense Tracker Commit"
 
     <Button
         android:id="@+id/deleteexpenselist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="19dp"
         android:layout_marginLeft="15dp"
@@ -118,25 +83,6 @@
         android:layout_alignRight="@+id/CommonExpense"
         android:onClick="getTotalExpensesFromFile"
         android:text="@string/get_total_expenses"
-=======
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/saveexpense"
-        android:layout_marginLeft="18dp"
-        android:layout_marginTop="20dp"
-        android:onClick="deleteCurrentExpenseList"
-        android:text="@string/delete_current_expense_list" 
-        android:textStyle="bold|italic"/>
-
-    <Button
-        android:id="@+id/saveexpense"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/expensevalue"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="16dp"
-        android:onClick="saveExpenseToFile"
-        android:text="@string/save_expense"
->>>>>>> parent of 794b247... Revert "Expense Tracker Commit"
         android:textStyle="bold|italic" />
 
 </RelativeLayout>
